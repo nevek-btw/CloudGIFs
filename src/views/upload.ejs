@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload GIF</title>
+</head>
+<body>
+  <h1>Upload a GIF</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="gif">Select GIF:</label>
+    <input type="file" id="gif" name="gif" accept=".gif" required><br>
+    <label for="category">Category:</label>
+    <input type="text" id="category" name="category" required><br>
+    <label for="source">Source:</label>
+    <input type="text" id="source" name="source"><br>
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
